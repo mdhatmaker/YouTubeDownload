@@ -286,6 +286,10 @@ namespace YouTubeDownload
             wplayer.controls.stop();
         }
 
+        /* Sample of using the CrossThreadExtensions class (and extension methods)
+            _frmx.PerformSafely(() => _frmx.Show());
+            _frmx.PerformSafely(() => _frmx.Location = new Point(x,y)); */
+
         public class InlineProgress : IProgress<double>, IDisposable
         {
             delegate void SetProgressCallback(int value);

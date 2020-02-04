@@ -145,6 +145,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CrossThreadExtensions.cs" />
     <Compile Include="YoutubeDownloadForm.cs">
       <SubType>Form</SubType>
     </Compile>
